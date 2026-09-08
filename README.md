@@ -29,7 +29,7 @@ This was an attempt to measure the unpredictability of teams in LaLiga (1928-29 
 - Logarithm in base 3 is taken so the Shannon entropy falls in the [0, 1] interval.
 - A column H is created where the Shannon entropy for each teams and season is computed.
 - Aggregate dataframes `Prova`, `Maxims` and `Equips` are created with 3 relevant columns: Temp (season), Team, and Entropia (entropy).
-- The same process is repeated to compute the Jensen-Shannon distance, which is stored in the column JSD.
-- The top 10 teams with the lowest distance are printed on screen.
+- The same process is repeated to compute the Jensen-Shannon distance, which is stored in the column JSD. In the code, P is the real W-D-L record, Q is the target W-D-L record and M is defined as (P+Q)/2).
+- The top 10 teams with the lowest distance are printed on screen as the most unpredictable.
 
 The code does not save the aggregate dataframes. They can be easily explored using spdyer as your IDE.
