@@ -22,6 +22,8 @@ This was an attempt to measure the unpredictability of teams in LaLiga (1928-29 
 | Temp | string | Season (e.g.: 1928-29) |
 
 - `Scrape_Shannon_futbol.py`: script originally used to scrape the data from the website bdfutbol.com. It is unlikely to work since the code was only used once and websites modify their html code frequently enough as to have fallen out of date by now. It was also coded with chromedriver in mind. It is attached here for the sake of completeness.
+- `README.md`: this file
+- `requirements.txt`: necessary python libraries and their versions
 
 ## Code description
 
